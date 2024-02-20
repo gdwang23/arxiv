@@ -22,7 +22,7 @@
 
 #### 多层体素特征编码VFE
 > - 计算体素内所有点平均值作为质心；
-> - 7维输入，`(x,y,z,r,x-c_x,y-c_y,z-c_z)`;
+> - 7维输入，$(x,y,z,r,x-c_x,y-c_y,z-c_z)$ ;
 > - 输入到FC+BN+ReLU网络，得到NxC1维point-wise特征；
 > - maxpooling, 得到local aggregated特征；
 > - concatenate， 得到point-concatenated wise特征, Nx2C1；
