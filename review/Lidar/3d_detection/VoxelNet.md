@@ -28,4 +28,4 @@
 > - concatenate， 得到point-concatenated wise特征, Nx2C1；
 > - 全卷积网络 NxC2维特征；
 > - maxpooling, 1xC2;
-![VFE网络结构](./VFE.png)
+![VFE网络结构](../_pic/0000_VFE.png)
